@@ -20,7 +20,7 @@ function addManyNums10(increment, count = 1, res = []) {
    res.push(addManyNums(count * increment))
 
 
- return addManyNums10(increment, count + 1,  res)
+ return addManyNums10(increment, count += 1,  res)
 
 }
 
